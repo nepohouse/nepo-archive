@@ -1,0 +1,304 @@
+body {
+   	font: normal 100% Verdana sans-serif;
+	margin: 0;
+	padding: 0;
+	background:#dbdbde url(layout_images/white.gif) repeat-y 50% 0;
+	font-family: Verdana, sans-serif;
+	color: #333333;
+	text-align: center;
+
+}
+
+#page{
+	margin: auto;
+    	padding: 0;
+    	width: 910px;
+	text-align: left
+
+}
+
+A:link {color: #333333;
+	text-decoration: none; 
+}
+
+
+A:visited { color: #333333;
+	text-decoration: none; 
+ 
+}
+
+A:active { color: #ff0099;
+	text-decoration: none;  
+}
+
+A:hover { color: #33cc33;
+	text-decoration: none;  
+}
+
+img {
+	border:none;
+}
+.header{
+	width: 910px;
+	margin-top: 0;
+	padding: 0;
+}
+
+
+.title {
+    	font-family: Verdana, sans-serif;
+    	font-size: 1.5em;        /* 24px / 16px = 1.5em */
+	color: #33cc33;
+	margin-left: 670px;
+}
+
+.entry{
+	position: relative;
+	width: 910px;
+}
+
+.entry .content{
+	width: 720px;
+	float: right;
+} 
+
+.entry .menu{
+	width: 150px;
+	float: left;
+}
+
+.content{
+	width: 720px;
+	float: right;
+	padding: 20px 0;
+	position:relative;
+	font-family: Verdana, sans-serif;
+    	font-size: 0.75em;
+	color: #333333;
+	text-align: left;
+
+}
+
+.text{
+	margin-right: 160px;
+	float: right;
+	padding: 10px 20px;
+	font-family: Verdana, sans-serif;
+    	color: #333333;
+	text-align: left;
+	width: 500px;
+
+}
+
+
+
+.abouttext{
+	margin-right: 160px;
+	float: right;
+	padding: 10px 20px;
+	font-family: Verdana, sans-serif;
+    	color: #333333;
+	text-align: left;
+
+}
+
+.abouttext img{
+	float: left;
+	padding: 0 10px 10px 0;
+}
+
+.abouttext a{
+	text-decoration: underline;
+}
+
+
+.browntext{
+	margin-right: 160px;
+	float: right;
+	padding: 10px 20px;
+	font-family: Helvetica Neue, sans-serif;
+    	color: #330000;
+	text-align: left;
+
+}
+
+.browntext a{
+	text-decoration: underline;
+}
+
+.text table {font-family: Verdana, sans-serif;
+    	color: #990033;
+	text-align: top;
+	font-size: 12px;
+}
+
+
+.text a{
+	text-decoration: underline;
+}
+
+.text img {align: center;
+	padding: 10px 0 0 0;
+}
+
+.text4{
+	margin-right: 150px;
+	float: right;
+	padding: 10px 20px;
+	font-family: Verdana, sans-serif;
+    	color: #333333;
+	text-align: left;
+	width: 510px;
+}
+
+.text4 img{align: left;
+	padding: 0px 5px 0 0;
+}
+
+.text4 a{
+	text-decoration: underline;
+}
+
+
+
+.contact{
+	font-family: Verdana, sans-serif;
+    	font-size: 0.75em;
+	color: #333333;
+}
+.contact p{
+	margin-left:100px;
+}
+
+.contact ul {
+	list-style: none;
+	padding: 0;
+	margin-left: 100px;
+	float: left;
+
+}
+
+.contact li {
+	padding: 10px 0;
+}
+
+
+.contact img{
+
+	float: right;
+
+}
+
+
+
+.content .artthumbs {
+	float: left;
+	padding: 10px;
+}
+
+.artthumbs{
+	font-family: Verdana, sans-serif;
+    	font-size: 0.75em;
+	color: #333333;
+	position:relative;
+}
+
+.graphicthumbs{
+	font-family: Verdana, sans-serif;
+	text-align: center;
+	color: #333333;
+	float: left;
+	padding: 10px;
+}
+
+.graphicthumbs img{
+	border:1 px;
+	border-color: cccccc;
+}
+
+.webthumbs{
+	font-family: Verdana, sans-serif;
+	color: #333333;
+}
+
+
+.imageOver{
+	background:url(layout_images/U_R_HERE_NOW.jpg) no-repeat 0 0;	
+	filter:alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 1.0;	
+}
+
+.menu{
+	font-family: Verdana, sans-serif;
+    	font-size: 0.75em;
+	color: #ff0099;
+	margin-left: 0;
+	padding: 20px 20px;
+	position: absolute;
+	float: left;
+}
+
+.menu ul {
+	list-style: none;
+	padding: 0;
+	margin-left: 20px;
+
+}
+
+.menu li {
+	padding: 2px 0;
+}
+
+
+.copyright{
+	text-align:center;
+	padding: 10px;
+	bottom: 0;
+	font-family: Verdana, sans-serif;
+    	font-size: 1 em;
+	color: #333333;
+}
+
+
+
+.video{
+	font-family: Verdana, sans-serif;
+   
+	color: #333333;
+	position:relative;
+}
+
+.credit
+	{font-family: Verdana, sans-serif;
+    	font-size: 9px;
+	color: #333333;
+	align: center;
+	padding-right:25px;
+	padding-top:3px;
+	width: 600px;
+}
+
+.credit2
+	{font-family: Verdana, sans-serif;
+    	font-size: 11px;
+	color: #333333;
+	align: center;
+	padding-right:25px;
+	padding-top:3px;
+	width: 600px;
+}
+
+
+
+
+.credit4{font-family: Verdana, sans-serif;
+    	font-size: 10px;
+	color: #333333;
+
+	align: center;
+	padding-right:25px;
+}
+
+
